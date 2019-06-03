@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>等分</title>
+	<style type="text/css">
+		.parent{
+			display: flex;
+		}
+		.column{
+			flex: 1;
+		}
+		.column+.column{
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="column"><p>1</p></div>
+		<div class="column"><p>2</p></div>
+		<div class="column"><p>3</p></div>
+		<div class="column"><p>4</p></div>
+	</div>
+</body>
+</html>
